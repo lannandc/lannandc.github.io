@@ -27,15 +27,15 @@
     [params.social.email]
         name = "E-Mail"
         class = "fas fa-envelope"
-        url = "mailto:lanna@example.com"
+        url = "mailto:lanna.caruth@upenn.pennmedicine.edu"
         weight = 1
     [params.social.github]
         name = "GitHub"
         class = "fab fa-github"
-        url = "https://github.com/<your_github_username>"
+        url = "https://github.com/lannandc"
         weight = 2
     [params.social.google_scholar]
         name = "Google Scholar"
         class = "ai ai-google-scholar-square"
-        url = "https://scholar.google.com/citations?user=<your_user_id>"
+        url = "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=2&gmla=AKzYXQ1aYbw-XJS4lHV32rJlyMrHy1CgXTnZAeK_iFgAK3y3TznsqMvaJkojwV98MO5ivU9hcFQX9146EjvHmw&user=_1CZOPMAAAAJ"
         weight = 3
