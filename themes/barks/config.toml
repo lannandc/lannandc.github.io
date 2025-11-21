@@ -6,7 +6,9 @@
     author = "Lanna Caruth"
     description = "Hi, I'm Lanna, and this is my website!"
     keywords = ["Lanna", "Caruth", "portfolio", "website"]
-
+[params.profile]
+    photo = "/images/profile.jpg"
+    
 [params.navigation]
     show_navigation = true
 
