@@ -6,7 +6,7 @@ weight: 1
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
-    <img src="/images/profile.jpeg" alt="Lanna Caruth" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;"> 
+    <img src="![alt](/images/profile.jpeg)" alt="Lanna Caruth" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;"> 
     <div>
         <h2>About Me</h2>
         <p>Hi, I'm Lanna Caruth! I'm a statistician at the University of Pennsylvania, where I work on computational approaches to understanding health outcomes and disease risk.</p>

@@ -2,6 +2,15 @@
   [module.hugoVersion]
     extended = true
     min = "0.128.0"
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
 [params.head]
     author = "Lanna Caruth"
     description = "Hi, I'm Lanna, and this is my website!"
