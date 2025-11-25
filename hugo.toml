@@ -1,4 +1,4 @@
-baseURL = "https://lannandc.github.io/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Lanna Caruth"
 theme = "barks"
@@ -51,31 +51,6 @@ theme = "barks"
       class = "ai ai-google-scholar-square"
       url = "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=2&gmla=AKzYXQ1aYbw-XJS4lHV32rJlyMrHy1CgXTnZAeK_iFgAK3y3TznsqMvaJkojwV98MO5ivU9hcFQX9146EjvHmw&user=_1CZOPMAAAAJ"
       weight = 3
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
-  
-  [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv/"
-    weight = 2
-  
-  [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/research/"
-    weight = 3
-  
-  [[menu.main]]
-    identifier = "publications"
-    name = "Publications"
-    url = "/publications/"
-    weight = 4
 
 [markup]
   [markup.goldmark]
