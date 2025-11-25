@@ -1,0 +1,88 @@
+baseURL = "https://lannandc.github.io/"
+languageCode = "en-us"
+title = "Lanna Caruth"
+theme = "barks"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"
+
+[params]
+  [params.head]
+    author = "Lanna Caruth"
+    description = "Hi, I'm Lanna, and this is my website!"
+    keywords = ["Lanna", "Caruth", "portfolio", "website"]
+  
+  [params.profile]
+    photo = "/images/profile.jpeg"
+  
+  [params.navigation]
+    show_navigation = true
+  
+  [params.footer]
+    show_footer = true
+  
+  [params.typography]
+    title_font = "Dosis"
+    body_font = "Source Sans Pro"
+  
+  [params.colors]
+    theme_color = "#ef798a"
+    background_color = "#ffffff"
+    text_color = "#000000"
+    link_color = "#7d82b8"
+  
+  [params.social]
+    [params.social.email]
+      name = "E-Mail"
+      class = "fas fa-envelope"
+      url = "mailto:lanna.caruth@upenn.pennmedicine.edu"
+      weight = 1
+    
+    [params.social.github]
+      name = "GitHub"
+      class = "fab fa-github"
+      url = "https://github.com/lannandc"
+      weight = 2
+    
+    [params.social.google_scholar]
+      name = "Google Scholar"
+      class = "ai ai-google-scholar-square"
+      url = "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=2&gmla=AKzYXQ1aYbw-XJS4lHV32rJlyMrHy1CgXTnZAeK_iFgAK3y3TznsqMvaJkojwV98MO5ivU9hcFQX9146EjvHmw&user=_1CZOPMAAAAJ"
+      weight = 3
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows HTML in markdown files
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
