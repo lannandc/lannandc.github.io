@@ -9,9 +9,8 @@ weight: 4
 ## 2025
 
 <ul>
-<li>Sykes A,Caruth L,Setia Verma S,Hoshi T,Deutsch C (2025). Disease-associated Kv1.3 variants are energy compromised with impaired nascent chain folding. Publications page generated successfully at: content/publications.md 
-" target="_blank">[DOI]</a></li>
-<li>Rajagopalan A,Nguyen TA,Guare LA,Garao Rico AL,Venkatesh R,Caruth L,Verma A,Ritchie MD,Hall MA,Romano JD,Setia-Verma S (2025). DRIVE-KG: Enhancing variant-phenotype association discovery in understudied complex diseases using heterogeneous knowledge graphs. Journal Article.  <a href="http://dx.doi.org/10.1101/2025.08.19.25333942" target="_blank">[DOI]</a></li>
+<li>Sykes A,Caruth L,Setia Verma S,Hoshi T,Deutsch C (2025). Disease-associated Kv1.3 variants are energy compromised with impaired nascent chain folding.
+<li>Rajagopalan A,Nguyen TA,Guare LA,Garao Rico AL,Venkatesh R,Caruth L,Verma A,Ritchie MD,Hall MA,Romano JD,Setia-Verma S (2025).DRIVE-KG: Enhancing variant-phenotype association discovery in understudied complex diseases using heterogeneous knowledge graphs.Journal Article.  <a href="http://dx.doi.org/10.1101/2025.08.19.25333942" target="_blank">[DOI]</a></li>
 <li>Furquim CP,Caruth L,Chandrasekaran G,Cucchiara A,Kallan MJ,Martin L,Feres M,Bittinger K,Divaris K,Glessner J,Kantarci A,Giannobile W,Verma SS,Teles F (2025). Developing Predictive Models for Periodontitis Progression Using Artificial Intelligence: A Longitudinal Cohort Study. <i>Journal of Clinical Periodontology</i>. Journal Article.  <a href="http://dx.doi.org/10.1111/jcpe.14194" target="_blank">[DOI]</a></li>
 </ul>
 

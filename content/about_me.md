@@ -13,6 +13,7 @@ weight: 1
         <p>My work spans a range of statistical and computational methods, from traditional genomic analyses to more modern machine learning approaches. I enjoy collaborating with researchers across different disciplines and helping translate complex analytical questions into actionable insights.</p>
     </div>
 </div>
+
 ## Research Interests
 
 My research focuses on developing and applying computational methods to improve our understanding of disease risk and health outcomes:
@@ -25,9 +26,6 @@ My research focuses on developing and applying computational methods to improve 
 
 - **Machine Learning in Genomics**: Developing and applying machine learning methods to genomic data, expanding beyond traditional statistical approaches to capture complex biological relationships
 
-## Approach
-
-I believe in making complex analyses accessible and interpretable. Whether working on large-scale genomic studies or developing new analytical pipelines, I focus on rigorous methods that provide clear, actionable results.
 
 ---
 
