@@ -52,6 +52,12 @@ theme = "barks"
       url = "https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=2&gmla=AKzYXQ1aYbw-XJS4lHV32rJlyMrHy1CgXTnZAeK_iFgAK3y3TznsqMvaJkojwV98MO5ivU9hcFQX9146EjvHmw&user=_1CZOPMAAAAJ"
       weight = 3
 
+    [params.social.orcid]
+      name = "ORCID"
+      class = "fab fa-github"
+      url = "https://orcid.org/0009-0005-4100-5830"
+      weight = 2
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
