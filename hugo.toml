@@ -54,7 +54,7 @@ theme = "barks"
 
     [params.social.orcid]
       name = "ORCID"
-      class = "fab fa-github"
+      class = "fab fa-orcid"
       url = "https://orcid.org/0009-0005-4100-5830"
       weight = 2
 
