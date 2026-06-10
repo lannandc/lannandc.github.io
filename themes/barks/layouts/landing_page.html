@@ -1,17 +1,53 @@
+
 {{ define "main" }}
-{{ with .Params.banner }}
-  <div class="landing-banner">
-    <img src="{{ . }}" alt="Banner" />
+{{ with .Params.carousel }}
+<div class="carousel">
+  <div class="carousel-track">
+    {{ range $i, $img := . }}
+    <div class="carousel-slide{{ if eq $i 0 }} active{{ end }}">
+      <img src="{{ $img }}" alt="Slide {{ add $i 1 }}">
+    </div>
+    {{ end }}
   </div>
-{{ end }}
-<div class="landing-page-wrapper">
-    <div class="landing-page-image">
-        <img src="{{ .Params.image }}" alt="{{ .Site.Params.header.title }}" width="221" height="331">
-    </div>
-    <div class="landing-page-content">
-        <div>
-            {{ .Content | safeHTML }}
-        </div>
-    </div>
+  <button class="carousel-btn carousel-prev" aria-label="Previous">&#8249;</button>
+  <button class="carousel-btn carousel-next" aria-label="Next">&#8250;</button>
+  <div class="carousel-dots">
+    {{ range $i, $img := . }}
+    <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" data-index="{{ $i }}" aria-label="Slide {{ add $i 1 }}"></button>
+    {{ end }}
+  </div>
 </div>
+{{ end }}
+<div class="landing-page-content">
+  {{ .Content | safeHTML }}
+</div>
+
+<script>
+(function() {
+  var carousel = document.querySelector('.carousel');
+  if (!carousel) return;
+  var slides = carousel.querySelectorAll('.carousel-slide');
+  var dots = carousel.querySelectorAll('.carousel-dot');
+  if (slides.length < 2) return;
+  var current = 0;
+  var timer;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function start() { timer = setInterval(function() { goTo(current + 1); }, 5000); }
+  function reset() { clearInterval(timer); start(); }
+
+  carousel.querySelector('.carousel-prev').addEventListener('click', function() { goTo(current - 1); reset(); });
+  carousel.querySelector('.carousel-next').addEventListener('click', function() { goTo(current + 1); reset(); });
+  dots.forEach(function(dot, i) { dot.addEventListener('click', function() { goTo(i); reset(); }); });
+
+  start();
+})();
+</script>
 {{ end }}

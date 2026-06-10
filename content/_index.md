@@ -1,12 +1,15 @@
 ---
 layout: landing_page
-image: /images/profile.jpeg
-banner: /images/banner.png
+carousel:
+  - /images/slide1.png
+  - /images/slide2.png
+  - /images/slide3.png
+  - /images/slide4.png
 ---
 
 🌟Hello! My name is Lannawill Caruth.My preferred name is Lanna and I use she/her/hers pronouns.
 
-👩🏾‍🎓I graduated from Vanderbilt University with a Bachelor’s in Engineering Science with minors in Scientific Computing and Medicine, Health, & Society. 
+👩🏾‍🎓I graduated from Vanderbilt University (Go `Dores!) with a Bachelor’s in Engineering Science with minors in Scientific Computing and Medicine, Health, & Society. 
 
 👩🏾‍💻I have experience working in research and analytical roles utilizing my proficiency in Python & R to accomplish a diverse range of tasks ,from healthcare business analytics to machine learning for multi-omics.
 

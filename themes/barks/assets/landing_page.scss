@@ -1,53 +1,67 @@
-.landing-banner {
+.carousel {
+    position: relative;
     width: 100%;
     margin-bottom: 2rem;
+    overflow: hidden;
 
-    img {
-        width: 100%;
-        height: auto;
-        display: block;
+    &-slide {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     }
-}
 
-.landing-page-wrapper {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    &-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.35);
+        color: white;
+        border: none;
+        padding: 0.4rem 0.9rem;
+        font-size: 2rem;
+        line-height: 1;
+        cursor: pointer;
+        z-index: 10;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.65);
+        }
+    }
+
+    &-prev { left: 0.5rem; }
+    &-next { right: 0.5rem; }
+
+    &-dots {
+        position: absolute;
+        bottom: 0.75rem;
+        width: 100%;
+        text-align: center;
+
+        button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(255, 255, 255, 0.55);
+            margin: 0 4px;
+            cursor: pointer;
+            padding: 0;
+
+            &.active {
+                background: white;
+            }
+        }
+    }
 }
 
 .landing-page-content {
-    width: 64%; 
-    align-items: center;
-    display: inline-flex;
-}
-
-.landing-page-image {
-    align-items: center;
-    width: 30%; 
-    text-align: center;
-    padding: 0;
-    display: inline-flex;
-}
-
-.landing-page-image img {
-    margin: 0;
-    height: auto;
     width: 100%;
-}
-
-
-@media only screen and (max-width: 600px) {
-
-    .landing-page-content {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 1em;
-    }
-
-    .landing-page-image {
-        width: 100%;
-        margin: auto;
-    }
-
 }
