@@ -1,5 +1,9 @@
-
 {{ define "main" }}
+{{ with .Params.banner }}
+  <div class="landing-banner">
+    <img src="{{ . }}" alt="Banner" />
+  </div>
+{{ end }}
 <div class="landing-page-wrapper">
     <div class="landing-page-content">
         <div>
