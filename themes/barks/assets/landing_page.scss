@@ -1,3 +1,14 @@
+.landing-banner {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
 .landing-page-wrapper {
     display: flex; 
     flex-wrap: wrap;
